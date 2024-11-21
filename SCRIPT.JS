@@ -12,7 +12,7 @@ console.log('Welcome, ${firstName} of ${house}!');
 
 //Q3//
 
-let charactersName = 'Hermione';
+let characterName = 'Hermione';
 console.log("Q3: Lowercase:", characterName.toLowerCase());
 console.log("Q3: Uppercase:", characterName.toUpperCase());
 
@@ -55,7 +55,7 @@ console.log("Q10: Slected professors:", selectedProffessor);
 //Q11//
 let students = ['Neville', 'Seamus', 'Dean', 'Parvati'];
 students.splice(1,2);
-console,log("Q11:Modified students array", students);
+console.log("Q11:Modified students array", students);
 
 //Q12//
 let phrase = 'Mischief Managed';
@@ -70,4 +70,4 @@ console.log("Q13: Updated wizards array:", wizards);
 //Q14//
 let message = 'Welcome to Hogwarts School of Witchcraft and Wizardry';
 let extractedword = message.slice(11,19).concat('Castle');
-console.log("")
+console.log("Q14: Modified message:", extractedword);
